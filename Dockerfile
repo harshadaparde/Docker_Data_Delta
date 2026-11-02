@@ -10,7 +10,7 @@ COPY app ./app
 
 COPY train_model.py .
 
-RUN python train_model.py
+RUN py train_model.py
 
 EXPOSE 8000
 
