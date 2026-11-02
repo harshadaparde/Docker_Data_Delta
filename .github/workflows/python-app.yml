@@ -30,7 +30,7 @@ jobs:
         run: python train_model.py
 
       - name: Run Tests
-        run: python -m pytest -v
+        run: py -m pytest -v
 
       - name: Build Docker Image
         run: docker build -t student-performance-api .
